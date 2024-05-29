@@ -25,7 +25,7 @@ def string_to_integer(view):
 opt = webdriver.ChromeOptions()
 opt.add_experimental_option("detach", True)
 browser = webdriver.Chrome(options=opt)
-browser.get("https://www.youtube.com/@codingapple/videos")
+browser.get("https://www.youtube.com/@nadocoding/videos")
 time.sleep(3)
 
 # 스크롤 끝까지 내리기
