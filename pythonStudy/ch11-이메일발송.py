@@ -35,7 +35,7 @@ for row in sheet.iter_rows(min_row = 2):
     your_mail = row[2].value
     product = row[3].value
     title = f"{name}님, 주문 내역 보내드립니다."
-    content =f"""안녕하세요. {name}님. 주문 내역은 다음과 같습니다.
+    content = f"""안녕하세요. {name}님. 주문 내역은 다음과 같습니다.
 구매일자 : {date}
 성함 : {name}
 주문제품 : {product}
