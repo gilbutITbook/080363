@@ -1,0 +1,15 @@
+관련 절	모듈과 버전
+5.3.5		requests==2.31.0
+6.1.1		bs4==0.0.1
+6.1.1		openpyxl==3.1.2
+6.1.1		Pillow==10.1.0
+8.1.1		selenium==4.14.0
+8.3.2		pyperclip==1.8.2
+9.3.4		pandas==2.3.3
+9.3.4		pydeck==0.8.0
+9.4.1		newspaper3k==0.2.8
+9.4.1		lxml-html-clean==0.1.1
+9.4.4		gtts==2.5.1
+9.4.4		playsound==1.2.2
+
+

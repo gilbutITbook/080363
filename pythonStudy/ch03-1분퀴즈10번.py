@@ -1,0 +1,6 @@
+age = int(input("나이를 입력하세요: "))
+has_ticket = input("일반 티켓을 소지하고 있습니까? (네/아니요): ")
+is_vip = input("VIP 티켓을 소지하고 있습니까? (네/아니요): ")
+clothes_color = input("옷 색깔을 입력하세요 (검정/빨강/파랑/초록): ")
+can_enter = (is_vip=="네" or (age>=18 and has_ticket=="네" and clothes_color=="파랑"))
+print(f"입장 가능 여부: {can_enter}")
